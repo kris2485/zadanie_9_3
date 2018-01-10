@@ -5,5 +5,7 @@ var dinosaurUpperCased = dinosaur.toUpperCase();
 console.log(dinosaurUpperCased);
 var textCharsAfter = text.replace('Velociraptor', dinosaurUpperCased); 
 console.log(textCharsAfter);
-var partOfText = textCharsAfter.slice(0,72);
+var halfTextNumber = textCharsAfter.length/2;
+console.log(halfTextNumber);
+var partOfText = textCharsAfter.slice(0, halfTextNumber);
 console.log(partOfText);
